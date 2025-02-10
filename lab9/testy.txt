@@ -1,0 +1,16 @@
+wget https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.8.1/junit-platform-console-standalone-1.8.1.jar
+javac *.java -cp junit-platform-console-standalone-1.8.1.jar
+java -jar junit-platform-console-standalone-1.8.1.jar -cp . --scan-class-path
+
+@Test
+    public void testBorrowItem() {
+        Library library = new Library();
+        User student = new User("Student User", true);
+        Book book = new Book(1, "Title", "Author", "Genre", "Publisher");
+
+        library.addUser(student);
+        library.borrowItem(1, student, 1, 5.0);
+
+        //assertTrue(book.isBorrowed());
+        assertEquals("Student User", book.getBorrowedBy());
+    }

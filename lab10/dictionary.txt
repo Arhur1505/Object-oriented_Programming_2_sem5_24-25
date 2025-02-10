@@ -1,0 +1,31 @@
+english,spanish,italian
+hello,hola,ciao
+goodbye,adiós,arrivederci
+yes,sí,sì
+no,no,no
+thank you,gracias,grazie
+please,por favor,per favore
+sorry,lo siento,mi dispiace
+love,amor,amore
+friend,amigo,amico
+family,familia,famiglia
+food,comida,cibo
+water,agua,acqua
+home,hogar,casa
+work,trabajo,lavoro
+play,jugar,giocare
+read,leer,leggere
+write,escribir,scrivere
+listen,escuchar,ascoltare
+speak,hablar,parlare
+happy,feliz,felice
+sad,triste,triste
+angry,enojado,arrabbiato
+tired,cansado,stanco
+sleep,dormir,dormire
+dream,sonar,sognare
+book,libro,libro
+chair,silla,sedia
+table,mesa,tavolo
+door,puerta,porta
+window,ventana,finestra
